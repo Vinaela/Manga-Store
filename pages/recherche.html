@@ -1,0 +1,234 @@
+<!-- Recherche -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projet Manga</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.4.0/css/responsive.bootstrap4.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.4.0/js/responsive.bootstrap4.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation-->
+    <nav id="nav" class="navbar active navbar-expand-lg fixed-top py-3">
+
+        <div class="container">
+            <a href="../index.html" class="navbar-brand text-uppercase font-weight-bold">
+                <img src="../img/logo.png" alt="Logo" width="180">
+            </a>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="../index.html" class="nav-link text-uppercase font-weight-bold">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="recherche.html" class="nav-link text-uppercase font-weight-bold">Recherche</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- DataTable -->
+    <div class="recherche-section">
+        <div class="container-fluid py-5 mt-5">
+            <table id="myTable" class="table table-striped table-bordered nowrap" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Auteur</th>
+                        <th>Thème</th>
+                        <th>Nombre de Tome</th>
+                        <th>Parution</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="onePiece.html">One Piece</a></td>
+                        <td>ODA Eiichirô</td>
+                        <td>Shonen</td>
+                        <td>101</td>
+                        <td>1997</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="demonSlayer.html">Demon Slayer</a></td>
+                        <td>GOTÔGE Koyoharu</td>
+                        <td>Shonen</td>
+                        <td>23</td>
+                        <td>2016</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="aot.html">Attack On Titan</a></td>
+                        <td>ISAYAMA Hajime</td>
+                        <td>Shonen</td>
+                        <td>34</td>
+                        <td>2009</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="naruto.html">Naruto</a></td>
+                        <td>KISHIMOTO Masashi</td>
+                        <td>Shonen</td>
+                        <td>72</td>
+                        <td>2000</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="mha.html">My Hero Academia</a></td>
+                        <td>HORIKOSHI Kôhei</td>
+                        <td>Shonen</td>
+                        <td>29</td>
+                        <td>2014</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="">Death Note</a></td>
+                        <td>OBATA Takeshi</td>
+                        <td>Seinen</td>
+                        <td>12</td>
+                        <td>2004</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="">Tokyo Ghoul</a></td>
+                        <td>ISHIDA Sui</td>
+                        <td>Seinen</td>
+                        <td>14</td>
+                        <td>2012</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="hunter.html">Hunter X Hunter</a></td>
+                        <td>TOGASHI Yoshihiro</td>
+                        <td>Shonen</td>
+                        <td>37</td>
+                        <td>1998</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="">Vinland Saga</a></td>
+                        <td>YUKIMURA Makoto</td>
+                        <td>Seinen</td>
+                        <td>23</td>
+                        <td>2005</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="">Berserk</a></td>
+                        <td> MIURA Kentarô</td>
+                        <td>Seinen</td>
+                        <td>41</td>
+                        <td>1990</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="">Parasite</a></td>
+                        <td>IWAAKI Hitoshi</td>
+                        <td>Seinen</td>
+                        <td>8</td>
+                        <td>1990</td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="">Erased</a></td>
+                        <td>SANBE Kei</td>
+                        <td>Seinen</td>
+                        <td>9</td>
+                        <td>2012</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer id="footer" class="bg-white">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Contact</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a class="text-muted">Téléphone : +33 01 22 33 44 55</a></li>
+                        <li class="mb-2"><a class="text-muted">Mail : manga.store@gmail.com</a></li>
+                        <li class="mb-2"><a class="text-muted">Adresse : 47 Bd de Pesaro, 92000 Nanterre</a></li>
+                    </ul>
+                    <ul class="list-inline mt-4">
+                        <li class="list-inline-item"><i class="fa fa-twitter"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-facebook"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Google Map</h6>
+                    <div class="iframe-container">
+                        <iframe width="300" height="150"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10492.577771500599!2d2.2085034442796916!3d48.8935843356063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6650048023613%3A0x54b0f0b31fbb71e9!2sIIM%20-%20Digital%20School%20Paris!5e0!3m2!1sfr!2sfr!4v1672913413316!5m2!1sfr!2sfr"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                    <p class="text-muted mb-4">Abonnez-vous pour recevoir des nouveautés de notre site par mail !</p>
+                    <div class="p-1 rounded border">
+                        <div class="input-group">
+                            <input type="email" placeholder="Entrer votre adresse mail" aria-describedby="button-addon1"
+                                class="form-control border-0 shadow-0">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-link">
+                                    <i class="fa fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-light py-4">
+            <div class="container text-center">
+                <p class="text-muted mb-0 py-2">Copyright © Celia Redaoui 2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery for DataTable -->
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                paging: false,
+                ordering: false,
+                info: false,
+                responsive: {}
+            });
+        });  
+    </script>
+
+</body>
+
+</html>
